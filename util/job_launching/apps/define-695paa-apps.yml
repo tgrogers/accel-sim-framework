@@ -31,12 +31,6 @@ ece695.part1:
         - hotspot-rodinia-3.1:
             - args:  1024 2 2 ./data/temp_1024 ./data/power_1024 output.out
               accel-sim-mem: 1G
-        - hybridsort-rodinia-3.1:
-            - args:  r
-              accel-sim-mem: 5G
-        - lavaMD-rodinia-3.1:
-            - args:  -boxes1d 10
-              accel-sim-mem: 32G
         - lud-rodinia-3.1:
             - args:  -s 256 -v
               accel-sim-mem: 1G

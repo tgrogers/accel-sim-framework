@@ -131,7 +131,7 @@ Collect the total cycles and instructions simulated. For this data point answer 
 1. What do these numbers say about the design of the PTX versus SASS ISA?
 1. What do these numbers say about the optimization level of each code type?
 
-####Hints:
+#### Hints:
 
 To run in SASS-mode, use the following command:
 ```bash
@@ -228,7 +228,7 @@ Answer the following questions:
 1. **Is there a connection between these divergence metrics and the application's instructions-per-cycle (IPC)?**
 1. **Comment on why this is (or is not) the case. Remember to use the data to answer this question, not just intuition and if the data runs counter to your intuition, attempt to use other data to explain why. (Hint: Think about occupancy too)**
 
-####Hints
+#### Hints
 
 There are some existing statistics in the simulator that will help you get the information.
 For SIMD Utilization, after each kernel, the simulator print something that looks like:

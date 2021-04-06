@@ -2,7 +2,7 @@
 
 ## Introduction to GPU Simulation
 
-In this assignment we will introduce you to a GPU Simulators: Accel-Sim (https://accel-sim.github.io) and GPGPU-Sim
+In this assignment we will introduce you to a GPU Simulators: Accel-Sim (https://accel-sim.github.io) and GPGPU-Sim.
 Accel-Sim is a trace-based simulation framework that uses another simulator GPGPU-Sim (http://gpgpu-sim.org) as it's core performance model.
 Documentation on how to use Accel-Sim can be found in the readme's associated with with the github repo - however we will cover the main points you need here.
 There are a variety of documentation sources for GPGPU-Sim, including a somewhat dated manual (http://gpgpu-sim.org/manual).
@@ -128,8 +128,8 @@ some options, collect the results and analyze them.
 Run the simulation in PTX-driven mode as specified above, then run those same apps in SASS-driven execution.
 Collect the total cycles and instructions simulated. For this data point answer the questions:
 
-**1. What do these numbers say about the design of the PTX versus SASS ISA?**
-**1. What do these numbers say about the optimization level of each code type?**
+1. What do these numbers say about the design of the PTX versus SASS ISA?
+1. What do these numbers say about the optimization level of each code type?
 
 Hints:
 
@@ -225,8 +225,8 @@ memory instruction can still generate 4 32-byte accesses. In the worst-case, a c
 
 Answer the following questions:
 
-**1. Is there a connection between these divergence metrics and the application's instructions-per-cycle (IPC)?**
-**1. Comment on why this is (or is not) the case. Remember to use the data to answer this question, not just intuition and if the data runs counter to your intuition, attempt to use other data to explain why. (Hint: Think about occupancy too)**
+1. **Is there a connection between these divergence metrics and the application's instructions-per-cycle (IPC)?**
+1. **Comment on why this is (or is not) the case. Remember to use the data to answer this question, not just intuition and if the data runs counter to your intuition, attempt to use other data to explain why. (Hint: Think about occupancy too)**
 
 ## Hints
 

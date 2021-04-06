@@ -8,12 +8,12 @@
 #SBATCH -p REPLACE_QUEUE_NAME
 #SBATCH --mail-type=END,FAIL
 #SBATCH --export=ALL
-#SBATCH --output=/tmp/REPLACE_NAME.o%j
-#SBATCH --error=/tmp/REPLACE_NAME.e%j
+#SBATCH --output=/tmp/$USER--REPLACE_NAME.o%j
+#SBATCH --error=/tmp/$USER--REPLACE_NAME.e%j
 
 copy_output() {
-    mv /tmp/REPLACE_NAME.e$SLURM_JOB_ID ./REPLACE_NAME.e$SLURM_JOB_ID
-    mv /tmp/REPLACE_NAME.o$SLURM_JOB_ID ./REPLACE_NAME.o$SLURM_JOB_ID
+    mv /tmp/$USER--REPLACE_NAME.e$SLURM_JOB_ID ./REPLACE_NAME.e$SLURM_JOB_ID
+    mv /tmp/$USER--REPLACE_NAME.o$SLURM_JOB_ID ./REPLACE_NAME.o$SLURM_JOB_ID
 }
 
 trap copy_output ERR

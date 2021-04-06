@@ -93,8 +93,8 @@ procManStateFile = os.path.join(procManStateFolder, "procman.{0}.pickle".format(
 
 class Job:
     def __init__(self, outF, errF, workingDir, command):
-        self.outF = outF
-        self.errF = errF
+        self.outF = os.path.expandvars(outF)
+        self.errF = os.path.expandvars(errF)
         self.workingDir = workingDir
         self.command = command
         self.procId = None
@@ -487,8 +487,8 @@ def main():
         with open(exec_file, "w+") as f:
             f.write(contents)
 
-        job.outF = re.sub("\%j", str(job.id), job.outF)
-        job.errF = re.sub("\%j", str(job.id), job.errF)
+        job.outF = os.path.expandvars(re.sub("\%j", str(job.id), job.outF))
+        job.errF = os.path.expandvars(re.sub("\%j", str(job.id), job.errF))
         procMan.saveState()
         print(job.id)
     else:

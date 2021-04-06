@@ -356,9 +356,13 @@ You can turn on the generation of arielvision traces from the cofiguration file 
 
 This will create a gpgpusim\_visualizer\_\_\*.log.gz file.
 This file can then be loaded by the visualizer using the instructions found here:
+
+
 https://github.com/accel-sim/gpgpu-sim_distribution/blob/dev/aerialvision/README
+
+
 NOTE: The manual is slightly outdated. To launch the arielvision executable, use the following
-- and remember that you must do this on a linux machine running the X GUI:
+and remember that you must do this on a linux machine running the X GUI:
 
 ```bash
 ./gpu-simulator/gpgpu-sim/bin/aerialvision.py

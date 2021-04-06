@@ -371,7 +371,7 @@ and remember that you must do this on a linux machine running the X GUI:
 
 ## What to hand in
 
-In your assisngment repo - submit a 1-page pdf plotting the results you collected with a few sentences descirbing what
+In your assisngment repo - submit a maximum 2-page pdf plotting the results you collected with a few sentences descirbing what
 you found with an explanation as to why these differences occurred.
 
 Please create a collect\_stats.sh script that captures the commands you ran

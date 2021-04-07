@@ -182,7 +182,7 @@ If you ever want to kill the jobs you launched before they complete, use the fol
 ```
 
 All the output from the simulator will be placed in sim\_run\_9.1/(app)/(args)/(config)/ inside each of these directories,
-there will be files labeled \*.o(jobId) and \*.e(jobId) which store the stdour (o) and stderr (e) for each particular run.
+there will be files labeled \*.o(jobId) and \*.e(jobId) which store the stdout (o) and stderr (e) for each particular run.
 To help aggregate the data from all the apps, configs, there are some handy scripts that parse all the GPGPU-Sim
 output and create CSV files with the final results.
 

@@ -40,12 +40,6 @@ ece695.part1:
         - nw-rodinia-3.1:
             - args:  2048 10
               accel-sim-mem: 1G
-        - particlefilter_float-rodinia-3.1:
-            - args:  -x 128 -y 128 -z 10 -np 1000
-              accel-sim-mem: 1G
-        - pathfinder-rodinia-3.1:
-            - args:  100000 100 20 > result.txt
-              accel-sim-mem: 1G
         - srad_v1-rodinia-3.1:
             - args:  100 0.5 502 458
               accel-sim-mem: 1G

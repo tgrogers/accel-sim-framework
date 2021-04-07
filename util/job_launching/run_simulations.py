@@ -258,6 +258,7 @@ class ConfigurationSpec:
                             "MEM_USAGE": mem_usage
                             }
         torque_text = open(this_directory + job_template).read().strip()
+        torque_text = os.path.expandvars(torque_text)
         for entry in replacement_dict:
             torque_text = re.sub("REPLACE_" + entry,
                                  str(replacement_dict[entry]),

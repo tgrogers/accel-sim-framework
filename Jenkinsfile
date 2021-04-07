@@ -18,7 +18,6 @@ pipeline {
             steps{
                 sh '''#!/bin/bash -xe
                 source ./env-setup/11.2.1_env_setup.sh
-                rm -rf ./gpu-simulator/gpgpu-sim
                 source ./gpu-simulator/setup_environment.sh
                 make -j -C gpu-simulator
                 make clean -C gpu-simulator

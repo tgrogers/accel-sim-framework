@@ -128,8 +128,8 @@ some options, collect the results and analyze them.
 Run the simulation in PTX-driven mode as specified above, then run those same apps in SASS-driven execution.
 Collect the total cycles and instructions simulated. For this data point answer the questions:
 
-1. What do these numbers say about the design of the PTX versus SASS ISA?
-1. What do these numbers say about the optimization level of each code type?
+1. **What do these numbers say about the design of the PTX versus SASS ISA?**
+1. **What do these numbers say about the optimization level of each code type?**
 
 #### Hints:
 

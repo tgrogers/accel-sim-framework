@@ -7,7 +7,7 @@ Accel-Sim is a trace-based simulation framework that uses another simulator GPGP
 Documentation on how to use Accel-Sim can be found in the readme's associated with with the github repo - however we will cover the main points you need here.
 There are a variety of documentation sources for GPGPU-Sim, including a somewhat dated manual (http://gpgpu-sim.org/manual).
 There are also some pre-recorded tutorial videos here. Note that these videos were made last year and are specific to GPGPU-Sim.
-* https://www.youtube.com/watch?v=d2bzYap\_fzc
+* https://www.youtube.com/watch?v=d2bzYap_fzc
 * https://www.youtube.com/watch?v=6v0qSPJH-VE&t=3s
 
 The docs are a good place to get started, but, as with any piece of open-source software - looking at the code is your best bet.
